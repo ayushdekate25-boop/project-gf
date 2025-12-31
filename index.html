@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For You 💖</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- SCREEN 1 -->
+    <div class="screen active" id="screen1">
+        <img src="images/cat1.png" class="cat">
+        <p>hey! i made something for you<br>will you see it?</p>
+        <div class="buttons">
+            <button onclick="yes()">yes</button>
+            <button onclick="no()">no</button>
+        </div>
+    </div>
+
+    <!-- SCREEN 2 (NO clicked) -->
+    <div class="screen" id="screen2">
+        <img src="images/cat-angry.png" class="cat">
+        <h2>HOW DARE YOU!! 😾</h2>
+        <button onclick="back()">BACK</button>
+    </div>
+
+    <!-- SCREEN 3 -->
+    <div class="screen" id="screen3">
+        <img src="images/cat-shy.png" class="cat">
+        <p>hehe!<br>click below for the surprise!!</p>
+        <button onclick="next()">NEXT</button>
+    </div>
+
+    <!-- SCREEN 4 -->
+    <div class="screen" id="screen4">
+        <img src="images/cat-gift.png" class="cat gift" onclick="next2()">
+        <p><b>Happy New Year 💫</b><br>Click on the gift 🎁</p>
+    </div>
+
+    <!-- SCREEN 5 -->
+    <div class="screen" id="screen5">
+        <img src="images/memories.png" class="memory">
+        <p class="wish">
+            for 2026, i wish you:<br><br>
+            ✨ peace<br>
+            😂 lots of laughter<br>
+            😴 good sleep<br>
+            🌟 main-character energy
+        </p>
+    </div>
+
+</div>
+
+<script src="script6.js"></script>
+</body>
+</html>
